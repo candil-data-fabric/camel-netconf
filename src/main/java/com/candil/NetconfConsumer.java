@@ -9,11 +9,11 @@ import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.apache.camel.support.DefaultConsumer;
 
-import com.tailf.jnc.Element;
-import com.tailf.jnc.NetconfSession;
-import com.tailf.jnc.SSHConnection;
-import com.tailf.jnc.SSHSession;
-import com.tailf.jnc.XMLParser;
+import com.candil.jnc.Element;
+import com.candil.jnc.NetconfSession;
+import com.candil.jnc.SSHConnection;
+import com.candil.jnc.SSHSession;
+import com.candil.jnc.XMLParser;
 
 public class NetconfConsumer extends DefaultConsumer {
     private final NetconfEndpoint endpoint;
@@ -73,7 +73,6 @@ public class NetconfConsumer extends DefaultConsumer {
         NetconfSession nc = new NetconfSession(ssh);
 
         String netconfResponse;
-        Element.setDebugLevel(4);
         // Select NETCONF operation based on type of datastore
         //
         // NETCONF Operational datastore

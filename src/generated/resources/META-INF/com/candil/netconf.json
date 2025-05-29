@@ -11,7 +11,7 @@
     "supportLevel": "Preview",
     "groupId": "com.candil",
     "artifactId": "camel-netconf",
-    "version": "1.0",
+    "version": "1.0.0",
     "scheme": "netconf",
     "extendsScheme": "",
     "syntax": "netconf:username@host[:port]",

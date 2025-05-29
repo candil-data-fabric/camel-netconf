@@ -49,7 +49,6 @@ public class NetconfComponentTest extends CamelTestSupport {
         mock.assertIsSatisfied();
 
         String body = mock.getExchanges().get(0).getIn().getBody(String.class);
-        System.out.println("Received NETCONF response: " + body);
 
         assertTrue(body.contains("<yang-library"), "Response should contain <yang-library");
     }
