@@ -1,4 +1,4 @@
-package com.candil;
+package com.github.candildatafabric;
 
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
@@ -9,11 +9,11 @@ import org.apache.camel.Exchange;
 import org.apache.camel.Processor;
 import org.apache.camel.support.DefaultConsumer;
 
-import com.candil.jnc.Element;
-import com.candil.jnc.NetconfSession;
-import com.candil.jnc.SSHConnection;
-import com.candil.jnc.SSHSession;
-import com.candil.jnc.XMLParser;
+import com.github.candildatafabric.jnc.Element;
+import com.github.candildatafabric.jnc.NetconfSession;
+import com.github.candildatafabric.jnc.SSHConnection;
+import com.github.candildatafabric.jnc.SSHSession;
+import com.github.candildatafabric.jnc.XMLParser;
 
 public class NetconfConsumer extends DefaultConsumer {
     private final NetconfEndpoint endpoint;

@@ -1,4 +1,4 @@
-package com.candil;
+package com.github.candildatafabric;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.support.DefaultProducer;

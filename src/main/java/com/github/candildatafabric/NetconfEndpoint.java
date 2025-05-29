@@ -1,4 +1,4 @@
-package com.candil;
+package com.github.candildatafabric;
 
 import java.util.Arrays;
 import java.util.List;

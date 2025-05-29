@@ -1,4 +1,4 @@
-package com.candil;
+package com.github.candildatafabric;
 
 import static org.junit.jupiter.api.Assertions.assertTrue;
 
