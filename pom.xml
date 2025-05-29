@@ -17,6 +17,13 @@
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
   </properties>
 
+  <repositories>
+    <repository>
+      <id>github</id>
+      <name>GitHub Packages</name>
+      <url>https://maven.pkg.github.com/candil-data-fabric/jnc</url>
+    </repository>
+  </repositories>
 
 
   <dependencyManagement>
@@ -42,7 +49,7 @@
 
     <!-- JNC -->
     <dependency>
-      <groupId>com.tailf.jnc</groupId>
+      <groupId>com.candil</groupId>
       <artifactId>jnc</artifactId>
       <version>1.3.0</version>
     </dependency>
